@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "学习笔记"
+title:  "learning"
 categories: learning portfolio visualization
 ---
 ## jekyll+md+github
