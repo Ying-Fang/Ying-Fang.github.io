@@ -1,0 +1,45 @@
+---
+layout: default
+title:  "学习笔记"
+categories: learning portfolio visualization
+---
+## jekyll+md+github
+在Github建造自己个人学习博客时，刚开始有点迷茫，无从下手，在建造过程中有些笔记心得。
+在Github网站开一个仓库，为username.github.io的仓库。建造后，你的个人博客需要jekyll的模板，这时我是在这个网址上找模板http://jekyllthemes.org/
+在这个网站上的模板你只要选好点击进入Github作者仓库，然后flok作者的博客。然后flok后的仓库改为自己username.github.io。
+当然我有另一种下载别人模板文件方法，但比较复杂，但是也可以参考。
+第一步安装git，然后在开始菜单搜git bash。生成SSH密钥ssh-keygen -t rsa -C "你的邮箱地址"，按3个回车，密码为空。在C:\Users\Administrator.ssh下，得到两个文件id_rsa和id_rsa.pub。在GitHub上添加SSH密钥打开id_rsa.pub，复制全文。https://github.com/settings/ssh ，Add SSH key，粘贴进去。
+
+进阶阶段-在搭建后，就是在别人模板文件上的改动和增加。
+这个时候就要用到Jekyll这个工具了,有一点要强调的是,我这里不会讲解从头打造一个个人博客网站,而是利用别人提供的Jekyll模板来制作,如果想深入学习的同学可以自行学习Jekyll以及Liquid
+一个标准的使用Jekyll工具生成的网站,其目录结构一般是像这样的
+├── _config.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.textile
+|   └── on-simplicity-in-technology.markdown
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── _data
+|   └── members.yml
+├── _site
+└── index.html
+_config.yml	保存配置数据。很多配置选项都会直接从命令行中进行设置，但是如果你把那些配置写在这儿，你就不用非要去记住那些命令了。
+_drafts	drafts 是未发布的文章。这些文件的格式中都没有 title.MARKUP 数据。学习如何使用 drafts.
+_includes	你可以加载这些包含部分到你的布局或者文章中以方便重用。可以用这个标签 {% include file.ext %} 来把文件 _includes/file.ext 包含进来。
+_layouts	layouts 是包裹在文章外部的模板。布局可以在 YAML 头信息中根据不同文章进行选择。 这将在下一个部分进行介绍。标签 {{ content }} 可以将content插入页面中。
+_posts	这里放的就是你的文章了。文件格式很重要，必须要符合: YEAR-MONTH-DAY-title.MARKUP。 The permalinks 可以在文章中自己定制，但是数据和标记语言都是根据文件名来确定的。
+_data	放一些其他配置文件,必须是.yml或者.yaml格式的,比如有一个文件叫members.yml,如果想引用这个文件里的内容就通过site.data.membres来引用
+_site	一旦 Jekyll 完成转换，就会将生成的页面放在这里（默认）。最好将这个目录放进你的 .gitignore 文件中。
+参考
+
+Liquid语法:https://help.shopify.com/themes/liquid 
+Jekyll中文网:http://jekyll.com.cn/ 
+Git官网:https://git-scm.com/
+
