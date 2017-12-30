@@ -7,7 +7,7 @@ categories: posts rwd
 
 # 第一步，环境搭建
 1. 下载安装Ruby软件，下载完毕后会出现小黑框，然后打“1”命令。
-2. 在开始菜单搜索powershell，出现这个图：![image](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=powershell&step_word=&hs=0&pn=25&spn=0&di=104586849290&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=4068599770%2C2515903886&os=3897701010%2C2997576922&simid=26432010%2C617864299&adpicid=0&lpn=0&ln=1921&fr=&fmq=1514609081001_R&fm=result&ic=0&s=undefined&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fimage001.server110.com%2F20170330%2F3304f48c2f89ae9d156b319b4c59938c.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bfj6ej688a_z%26e3Bv54AzdH3F3tw5vijg2AzdH3Fda80anAzdH3Fdblbda8_z%26e3Bip4s&gsm=0&rpstart=0&rpnum=0)
+2. 在开始菜单搜索powershell.
 3. 接下来就打一连串命令
 - gem install jekyll
 - gem install bundler
