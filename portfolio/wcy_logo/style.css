@@ -1,0 +1,48 @@
+.desc .zhong{
+	-webkit-animation: swinging 1s ease-in-out alternate infinite;
+   -moz-animation: swinging 1s ease-in-out alternate infinite;
+   animation: swinging 1s ease-in-out alternate infinite;
+}
+@keyframes swinging {
+   0% {
+       -webkit-transform: rotate(30deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(30deg);
+       -moz-transform-origin: top center;
+       transform: rotate(30deg);
+       transform-origin: top center;
+    }
+    100% {
+       -webkit-transform: rotate(-30deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(-30deg);
+       -moz-transform-origin: top center;
+       transform: rotate(-30deg);
+       transform-origin: top center;
+    }
+}
+
+.desc .yuan{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: go 1s ease-in-out alternate infinite;
+}
+@keyframes go {
+   0% {
+       -webkit-transform: rotate(360deg);
+       -webkit-transform-origin: 50% 50%;
+       -moz-transform: rotate(360deg);
+       -moz-transform-origin: 50% 50%;
+       transform: rotate(360deg);
+       transform-origin: 50% 50%;
+    }
+    100% {
+       -webkit-transform: rotate(-360deg);
+       -webkit-transform-origin: 50% 50%;
+       -moz-transform: rotate(-360deg);
+       -moz-transform-origin: 50% 50%;
+       transform: rotate(-360deg);
+       transform-origin: 50% 50%;
+    }
+}
+
