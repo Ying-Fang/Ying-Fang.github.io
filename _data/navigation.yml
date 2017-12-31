@@ -3,13 +3,14 @@
 - title: 网页设计作品集
   url: /portfolio/ 
   excerpt: "网页设计的个人作品集"
-  
+  image: love.gif
 
 - title: 信息可视化作品集
   url: /infovis/ 
   excerpt: "信息可视化的个人作品集"
-  
+  image: qiu.gif
   
 - title: 网页设计笔记
   url: /webarticle/ 
   excerpt: "文章" 
+  image: dong.gif
