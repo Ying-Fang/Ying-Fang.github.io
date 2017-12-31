@@ -4,8 +4,8 @@ title:  "个人博客步骤教程"
 date:   2017-12-30 13:15:50 +0800
 categories: posts rwd
 image:
-  teaser: jekyll.jpg
-  feature: jekyll.jpg
+  teaser: jekll.jpg
+  feature: jekll.jpg
 ---
 
 # 第一步，环境搭建
