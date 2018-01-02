@@ -5,7 +5,6 @@ date:   2018-01-01 13:15:50 +0800
 categories:
 image:
   teaser: bio.jpg
-  feature: bio.jpg
 ---
 # 关于作者
 - 作者来自中山大学南方学院
