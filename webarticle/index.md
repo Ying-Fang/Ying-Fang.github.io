@@ -122,60 +122,10 @@ categories: webarticle
 
 ```
 
-- 接下来就是要编写CSS
-
-
----
-.desc .zhong{
-
-  -webkit-animation: swinging 1s ease-in-out alternate infinite;
-   -moz-animation: swinging 1s ease-in-out alternate infinite;
-   animation: swinging 1s ease-in-out alternate infinite;
-}
-@keyframes swinging {
-   0% {
-       -webkit-transform: rotate(30deg);
-       -webkit-transform-origin: top center;
-       -moz-transform: rotate(30deg);
-       -moz-transform-origin: top center;
-       transform: rotate(30deg);
-       transform-origin: top center;
-    }
-    100% {
-       -webkit-transform: rotate(-30deg);
-       -webkit-transform-origin: top center;
-       -moz-transform: rotate(-30deg);
-       -moz-transform-origin: top center;
-       transform: rotate(-30deg);
-       transform-origin: top center;
-    }
-}
-
-.desc .yuan{
-	-webkit-animation: go 1s ease-in-out alternate infinite;
-   -moz-animation: go 1s ease-in-out alternate infinite;
-   animation: go 1s ease-in-out alternate infinite;
-}
-@keyframes go {
-   0% {
-       -webkit-transform: rotate(360deg);
-       -webkit-transform-origin: 50% 50%;
-       -moz-transform: rotate(360deg);
-       -moz-transform-origin: 50% 50%;
-       transform: rotate(360deg);
-       transform-origin: 50% 50%;
-    }
-    100% {
-       -webkit-transform: rotate(-360deg);
-       -webkit-transform-origin: 50% 50%;
-       -moz-transform: rotate(-360deg);
-       -moz-transform-origin: 50% 50%;
-       transform: rotate(-360deg);
-       transform-origin: 50% 50%;
-    }
-}
-
-
-
-
-- 我我设置外圈和摆钟，要注意的是图的旋转中心点位置（transform-origin:50% 50%>是中心点，rotate是摆动角度设置
+- 接下来就是要编写CSS，首先，我们看到摆动的钟，做这个动画关键点就在于你想以哪一个为中心点摆动，这个钟，我是以顶点为中心点，所以我@keyframes swinging：transform-origin: top center，意思就是以顶点为中心点摆动。
+- 第二步就是我需要以顶点为中心摆动角度，我的作品设置摆动30度，所以transform: rotate(30deg)。当然角度自定义。
+- 我认为最重要的代码是@keyframes swinging ，因为swinging决定这个动画是左右摆动的，像钟一样。
+- 接下来是外圈旋转，上文所说钟左右摆动，我的外圈则是旋转。它的中心点就是50% 50%，这意思是中心点在圈的内部中心。
+- 而@keyframes go就是go，与上面就不一样。
+- animation: swinging 1s ease-in-out alternate infinite;这个东西就是决定动画的运动速度。
+- 其实制作动画好简单，如果你结合RDW2教程代码再想想每一张图每一条线或圈运动状态，基本上这已经不是问题了。
