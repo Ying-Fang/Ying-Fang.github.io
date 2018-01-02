@@ -12,21 +12,7 @@ categories: webarticle
 ## 第二步动画“绘制”
 - 接下来，我把我优化的图表放去上文提到的网站，点击左上角CODE，即可得到SVG代码。![image](jiaocheng.jpg)
 - 现在打开Noteapp++编写Html和CSS。
-- 
-```
-<html>
 
-<head>
-
-  <meta charset="UTF-8">
-
-  <title>文学与传媒学院图标</title>
-
-    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
-
-</head>
-
-<body>
  <div id="wcylogo">
 	<div class="svg_inset">
 		<p>我使用网站http://editor.method.ac/，把从文传网站上下载的svg图标导入去，然后查看自动生成的代码，放进HTML里，即可看见图标。</p>
@@ -117,10 +103,7 @@ categories: webarticle
 		<p>原来文档41K，现在是21K，缩减了28%</p>
 		<img src="logoyouhua.svg" alt="Amazing line art of a scone" />
 </div>	
-</body>
 
-
-```
 
 - 接下来就是要编写CSS，首先，我们看到摆动的钟，做这个动画关键点就在于你想以哪一个为中心点摆动，这个钟，我是以顶点为中心点，所以我@keyframes swinging：transform-origin: top center，意思就是以顶点为中心点摆动。
 - 第二步就是我需要以顶点为中心摆动角度，我的作品设置摆动30度，所以transform: rotate(30deg)。当然角度自定义。
