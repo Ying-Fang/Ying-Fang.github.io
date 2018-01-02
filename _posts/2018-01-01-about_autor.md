@@ -2,7 +2,7 @@
 layout: article
 title:  "关于作者"
 date:   2018-01-01 13:15:50 +0800
-categories: posts rwd
+categories:
 image:
   teaser: bio.jpg
   feature: bio.jpg
