@@ -5,7 +5,6 @@ date:   2017-12-30 13:15:50 +0800
 categories: posts rwd
 image:
   teaser: jeyll.jpg
-  feature: jeyll.jpg
 ---
 
 # 第一步，环境搭建
