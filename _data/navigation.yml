@@ -10,7 +10,12 @@
   excerpt: "信息可视化的个人作品集"
   image: people.gif
 
-- title: 文章
+- title: 文章（web）
   url: /posts/
   excerpt: "信息可视化笔记和Web笔记"
   image: run.gif
+
+- title: 文章（信息可视化）
+  url: /posts/
+  excerpt: "信息可视化笔记和Web笔记"
+  image: earth.gif
