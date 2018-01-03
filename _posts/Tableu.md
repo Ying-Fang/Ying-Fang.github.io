@@ -1,0 +1,84 @@
+---
+layout: article
+title:  "Tableu入门"
+date:   2018-01-01 14:20:50 +0800
+categories:
+image:
+  teaser:tableu.jpg
+---
+Tableau 是一种演变最快的商业智能和数据可视化工具之一。对于使用者而言，它有展开迅速、易学以及非常直观的特点
+
+## 步骤1:下载并安装Tableau
+从Tableau网站下载桌面版（14天后要缴费）
+
+## 步骤二:观看培训视频
+- 入门
+- Tableau接口（交界面
+- 分布和发表
+
+## 步骤三:连接数据
+- 一共12个视频，平均视频长度5分钟
+- 连接数据
+- Tableau 9.0 带来更多连接
+- 连接Tableau和任何一种大数据源
+- 使用Custom SQL的连接 
+
+## 步骤四:创建视角和分析
+- 创建Tableau视图
+- 视觉解析学
+- 绘图
+
+## 步骤四:熟能生巧
+一边看着视频教程，一边进行文件操作（每个视频都有文件下载）
+
+## 步骤五:加入社团和群组
+- Tableau社区
+- Plot.ly
+
+## 步骤六：仪表板和故事
+- 仪表板和故事的创建
+
+- 添加视图和目标到仪表板上
+
+- 在仪表板上使用筛选器
+
+- 各种不同的边界格式和板式选项
+
+- 可互动的仪表板
+
+- 故事点
+
+## 步骤七：高级表达
+- 创建可计算的域
+- 使用TOTAL功能在总结范围
+- 可计算的域- 总的功能
+- 用简单的四步来将Tableau和R结合起来
+
+## 步骤八：高级视图化方法
+- Waterfall Charts （瀑布图表）
+
+- Bump Charts （凹凸图表）
+
+- Funnel Charts （漏斗形图表）
+
+- Box Plot （盒形图）
+
+- Pareto Charts （排列图）
+
+- Histograms and Others （柱状图和其他类型图表）
+
+[Tableau网站]: http://www.tableau.com/products/trial?os=windows
+[入门]:
+http://www.tableau.com/learn/training?qt-training_tabs=1#qt-training_tabs
+[ableau接口（交界面)]:
+http://www.tableau.com/learn/training?qt-training_tabs=1#qt-training_tabs
+[分布和发表]:
+http://www.tableau.com/learn/training?qt-training_tabs=1#qt-training_tabs
+[连接数据]:
+http://www.tableau.com/learn/training?qt-training_tabs=1#qt-training_tabs
+[Tableau 9.0 带来更多连接]:
+http://interworks.co.uk/blog/tableau-9-0-brings-us-connections/
+[连接Tableau和任何一种大数据源]:
+http://www.simba.com/resources/webinars/connect-tableau-big-data-source
+[使用Custom SQL的连接]:
+http://reports4u.co.uk/custom-sql-data-connections-in-tableau/
