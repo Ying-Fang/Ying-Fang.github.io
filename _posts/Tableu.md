@@ -1,8 +1,8 @@
----
+posts infovis---
 layout: article
 title:  "Tableu入门"
 date:   2018-01-01 14:20:50 +0800
-categories:
+categories:posts infovis
 image:
   teaser:tableu.jpg
 ---
