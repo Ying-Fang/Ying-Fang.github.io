@@ -3,7 +3,7 @@ layout: archive
 title: "文章（信息可视化）"
 date: 2018-1-1T18:46:45-04:00
 modified:
-excerpt: "(๑•̀ω•́๑)"
+excerpt: "笔记"
 tags: []
 
 ---
