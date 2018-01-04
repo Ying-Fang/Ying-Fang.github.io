@@ -2,7 +2,7 @@
 layout: article
 title:  "期中作品"
 date:   2018-1-03 10:10:50 +0800
-categories: posts infovis
+categories: infovis
 image:
   teaser: rabbit.jpg
   
