@@ -7,15 +7,15 @@
 
 - title: 信息可视化作品集
   url: /infovis/
-  excerpt: "信息可视化的个人作品集"
+  excerpt: "本学期的作品"
   image: people.gif
 
 - title: 文章（web）
-  url: /posts/
+  url: /posts/rwd/
   excerpt: "Web笔记"
   image: run.gif
 
 - title: 文章（信息可视化）
-  url: /posts/
+  url: /posts/infovis/
   excerpt: "信息可视化笔记"
   image: earth.gif
