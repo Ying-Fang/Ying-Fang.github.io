@@ -18,3 +18,4 @@ image:
 - 点击这个图表，可以打开大图，大图的右下角有个“共享”，你点击一下，会弹出两个选择。一个是“链接”，链接可以分享给朋友打开查看了，这是一个分享方法；
   ![image](http://Ying-Fang.github.io/images/embedded.png)
 - 另外一个是“嵌入代码”，意思是，这个图你可以在你的网页、博客（支持代码）地方插入，让查看网页的人在你的网站博客互动图表。
+  ![image](http://Ying-Fang.github.io/images/end.png)
