@@ -1,10 +1,11 @@
 ---
 layout: article
 title:  "期末作品"
-date:   2018-1-03 10:15:50 +0800
+date:   2018-1-03 19:15:50 +0800
 categories: infovis visualization
 image:		
-    teaser: 仪表板.png		
+    teaser: 仪表盘.png		
+    feature: 仪表盘.png
 ---
 <div style="background: #F4A460; color:white;border-radius:20px">
     <h2>快递业分析</h2>  
