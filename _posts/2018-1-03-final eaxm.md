@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "期中作品"
+title:  "期末作品"
 date:   2018-1-03 10:15:50 +0800
 categories: infovis visualization
 image:		
