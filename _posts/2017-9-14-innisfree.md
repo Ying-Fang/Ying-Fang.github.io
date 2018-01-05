@@ -5,7 +5,7 @@ date:   2017-9-13 0:49:50 +0800
 categories: portfolio
 image:
   teaser: innisfree.jpg
-  feature: innisfreec.jpg
+  feature: innisfree.jpg
 ---
 打开网页里的链接则可以进入我自己制作的网页（有视频、图片、文字）
 
