@@ -73,7 +73,7 @@
 			}
 			&:after {
 				width: 0;
-				background-color: $black;
+				background-color: #FF6A6A;
 			}
 			&:active:after,
 			&:hover:after {
@@ -81,7 +81,7 @@
 			}
 			&:hover {
 				color: $black;
-				background-color: $lemon;
+				background-color: #FFA54F;
 			}
 		}
 	}
