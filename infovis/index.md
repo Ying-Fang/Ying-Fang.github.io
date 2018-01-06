@@ -1,11 +1,13 @@
 ---
-layout: default
-title:  "可视化设计作品集"
-date:   2017-12-07 23:45:15 +0800
-excerpt: "作品展示"
+layout: archive
+title: "信息可视化作品集"
+date: 2018-1-1T14:25:45-04:00
 modified:
+excerpt: "个人作品"
 tags: []
-
+image: 
+  feature: panda.jpg
+  teaser:
 ---
 <div class="tiles">
 {% for post in site.categories.visualization %}
