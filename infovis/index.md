@@ -3,12 +3,13 @@ layout: archive
 title: "信息可视化作品集"
 date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt: "个人作品"
+excerpt: "可视化设计作品集"
 tags: []
 image: 
-  feature: panda.jpg
-  teaser:
+  teaser:  panda.jpg
 ---
+
+
 <div class="tiles">
 {% for post in site.categories.visualization %}
   {% include post-grid.html %}
