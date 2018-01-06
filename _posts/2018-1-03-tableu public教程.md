@@ -3,7 +3,7 @@ layout: article
 title:  "tableu public教程"
 categories: posts infovis infovisnotes
 image:
-  teaser: rabbit.jpg
+  teaser: tableulogal.jpg
 ---
 # 第一步：注册
 - 注册一个免费的tableau public账号
