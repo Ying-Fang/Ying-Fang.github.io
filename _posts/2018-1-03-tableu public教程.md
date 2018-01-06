@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "悦诗风吟环保手帕介绍"
+title:  "tableau public教程"
 date:   2017-9-13 0:49:50 +0800
 categories: posts infovis infovisnotes
 image:
