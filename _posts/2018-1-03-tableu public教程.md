@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "tableau public教程"
+title:  "悦诗风吟环保手帕介绍"
+date:   2017-9-13 0:49:50 +0800
 categories: posts infovis infovisnotes
 image:
-  teaser: tableaulo.jpg
+  teaser: tableaulo.jpg 
+  feature: tableaulo.jpg 
+  
 ---
 有详细的文字和截图概要
 
