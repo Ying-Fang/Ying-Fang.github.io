@@ -1,9 +1,9 @@
 ---
 layout: article
-title:  "tableu public教程"
+title:  "tableau public教程"
 categories: posts infovis infovisnotes
 image:
-  teaser: tableulogal.jpg
+  teaser: tableaulogal.jpg
 ---
 # 第一步：注册
 - 注册一个免费的tableau public账号
