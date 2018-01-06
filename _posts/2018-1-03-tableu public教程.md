@@ -5,6 +5,7 @@ categories: posts infovis infovisnotes
 image:
   teaser: tableaulogal.jpg
 ---
+
 # 第一步：注册
 - 注册一个免费的tableau public账号
 # 第二步：保存
