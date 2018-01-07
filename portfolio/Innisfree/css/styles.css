@@ -18,9 +18,8 @@ body {
 
 	margin: 0 auto;
 	
-	background: -webkit-linear-gradient(red, blue);
 
-	color: #ffcc99;
+	color: #aeda6e;
 
 }
 
@@ -140,9 +139,9 @@ img {
 
 	body {
 
-		border-left: 4px solid #b2ec5d;
+		border-left: 4px solid ##ffcc99;
 
-		border-right: 4px solid #b2ec5d;
+		border-right: 4px solid ##ffcc99;
 
 		padding: 1rem 2rem;
 
