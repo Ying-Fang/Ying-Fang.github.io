@@ -17,6 +17,8 @@ body {
 	max-width: 60rem;
 
 	margin: 0 auto;
+	
+	background: -webkit-linear-gradient(red, blue);
 
 	color: #ffcc99;
 
