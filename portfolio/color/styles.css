@@ -1,5 +1,7 @@
-body {
-	font-size: 1.5rem;
+span {
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
 	background-color: rgb(240, 128, 128);
 }
 .flexbox-container{
